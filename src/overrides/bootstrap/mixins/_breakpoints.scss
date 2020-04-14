@@ -68,7 +68,7 @@
         @content;
       }
     } @else {
-      @media (min-width: $min) {
+      @media screen and (min-width: $min) {
         @content;
       }
     }
@@ -88,7 +88,7 @@
         @content;
       }
     } @else {
-      @media (max-width: $max) {
+      @media print, (max-width: $max) {
         @content;
       }
     }
@@ -102,10 +102,17 @@
 @mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
   $min: breakpoint-min($lower, $breakpoints);
   $max: breakpoint-max($upper, $breakpoints);
+  $print-min: print-breakpoint-min($breakpoints);
 
   @if $min != null and $max != null {
-    @media (min-width: $min) and (max-width: $max) {
-      @content;
+    @if $print-min and $min <= $print-min and $print-min < $max {
+      @media print, (min-width: $min) and (max-width: $max) {
+        @content;
+      }
+    } @else {
+      @media screen and (min-width: $min) and (max-width: $max) {
+        @content;
+      }
     }
   } @else if $max == null {
     @include media-breakpoint-up($lower, $breakpoints) {
@@ -122,20 +129,5 @@
 // No minimum for the smallest breakpoint, and no maximum for the largest one.
 // Makes the @content apply only to the given breakpoint, not viewports any wider or narrower.
 @mixin media-breakpoint-only($name, $breakpoints: $grid-breakpoints) {
-  $min: breakpoint-min($name, $breakpoints);
-  $max: breakpoint-max($name, $breakpoints);
-
-  @if $min != null and $max != null {
-    @media (min-width: $min) and (max-width: $max) {
-      @content;
-    }
-  } @else if $max == null {
-    @include media-breakpoint-up($name, $breakpoints) {
-      @content;
-    }
-  } @else if $min == null {
-    @include media-breakpoint-down($name, $breakpoints) {
-      @content;
-    }
-  }
+  @include media-breakpoint-between($name, $name, $breakpoints);
 }
