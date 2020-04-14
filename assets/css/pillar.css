@@ -9837,9 +9837,9 @@ h3 {
     page-break-after: avoid;
   }
 
-  /*@page {*/
-  /*  size: a3;*/
-  /*}*/
+  @page {
+    size: a4;
+  }
   body {
     min-width: 992px !important;
   }
@@ -9930,7 +9930,6 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     padding: 0;
   }
 }
-
 .resume-wrapper-inner {
   max-width: 1000px;
 }
@@ -9940,7 +9939,6 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     max-width: unset;
   }
 }
-
 .resume-header {
   background: #434E5E;
   color: rgba(255, 255, 255, 0.9);
@@ -10098,7 +10096,6 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     display: none;
   }
 }
-
 @media screen and (max-width: 767.98px) {
   .resume-wrapper {
     padding-top: 0;

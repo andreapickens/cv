@@ -26,9 +26,15 @@ $theme-colors: (
   "secondary":  $theme-text-color-secondary, 
 );
 
-//Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Media queries that should or should not match this breakpoint will also match if the media type
+// is print.
+$print-breakpoint: lg;
 
+// Printing to A4 is best.
+$print-page-size: a4;
+
+// Import Bootstrap
+@import "overrides/bootstrap/bootstrap.scss";
 
 /*************************** Pillar Styles ****************************/
 body {
@@ -81,6 +87,12 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 
 .resume-wrapper-inner {
 	max-width: 1000px;
+}
+
+@media print {
+	.resume-wrapper-inner {
+		max-width: unset;
+	}
 }
 
 .resume-header {
@@ -265,7 +277,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
+@include media-breakpoint-down(sm) {
     .resume-wrapper {
 	    padding-top: 0;
     }
@@ -273,10 +285,9 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 	.resume-header {
 		height: auto;
 	}
+
 	.resume-header .picture {
 		width: 120px;
 		@include border-radius(4px);
 	}
-
-	
 }
