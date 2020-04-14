@@ -19,12 +19,12 @@ Original notice:
 ### Adaptations
 
 Changes to the original works can be identified by [comparing][] this to the branch in the original
-repository. This may also include new content which is not considered an adaptation.
+repository. This may also include content which is not considered an adaptation.
 
 ## License
 
 Except where [otherwise noted][exceptions], content in this repository is licensed under a
-[Creative Commons Attribution 3.0 International license][cc by 3.0].
+[Creative Commons Attribution 4.0 International license][].
 
 ### Exceptions
 
@@ -40,6 +40,7 @@ This includes, but is not limited to:
 | [profile.jpg](assets/images/profile.jpg) | Profile image | None | |
 | [index.html](index.html) | Personal information | None | This relates to the contents of this file which describe the personal details of the subject that they are about. |
 | [bootstrap](assets/scss/bootstrap) | Bootstrap | [Bootstrap license][] | |
+| [cc](assets/images/cc) | Creative Commons Buttons | None | Use of these trademarks are subject to the [Creative Commons Trademark Policy][]. |
 
 ## Credits
 
@@ -49,7 +50,8 @@ This includes, but is not limited to:
 [bootstrap]: http://getbootstrap.com/
 [bootstrap license]: https://github.com/twbs/bootstrap/blob/master/LICENSE
 [buy license]: https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/
-[cc by 3.0]: https://creativecommons.org/licenses/by/3.0/
+[creative commons attribution 4.0 international license]: https://creativecommons.org/licenses/by/4.0/
+[creative commons trademark policy]: https://creativecommons.org/policies
 [comparing]: https://github.com/xriley/pillar-theme/compare/1b6797e6e773d606c956ec05256d219b4d3318d5...steinybot:master
 [exceptions]: #exceptions
 [fontawesome]: http://fortawesome.github.io/Font-Awesome/

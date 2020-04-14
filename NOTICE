@@ -1,9 +1,5 @@
-
-
-
 This is an adaptation of "Pillar - Bootstrap 4 Resume/CV Theme for Developers" (https://github.com/xriley/pillar-theme)
 by UX/UI designer Xiaoying Riley (https://twitter.com/3rdwave_themes).
-
 
 1. Original Notice
 
@@ -15,18 +11,16 @@ separate attachment from any of your work.
 If you'd like to use the template without the footer attribution, you can buy the commercial
 license via the theme website (https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/)
 
-
-2. Changes
+2. Adaptations
 
 Changes to the original works can be identified by comparing this to the branch in the original
 repository (https://github.com/xriley/pillar-theme/compare/1b6797e6e773d606c956ec05256d219b4d3318d5...steinybot:master).
-This may also include new content which is not considered an adaptation.
-
+This may also include content which is not considered an adaptation.
 
 3. Exceptions
 
 Except where otherwise noted, content in this repository is licensed under a
-Creative Commons Attribution 3.0 International license (see LICENSE).
+Creative Commons Attribution 3.0 Unported license (see LICENSE).
 
 All content that is not an adaptation of the original work or explicitly covered by another license
 is not licensed and you have no rights over it. This is to protect the personal information and
@@ -49,6 +43,11 @@ License: None
 Note: This relates to the contents of this file which describe the personal details of the subject
   that they are about.
 
-File: assets/scss/bootstrap
+Directory: assets/scss/bootstrap
 Title: Bootstrap
 License: https://github.com/twbs/bootstrap/blob/master/LICENSE
+
+Directory: assets/images/cc
+Title: Creative Commons Buttons
+License: None
+Note: Use of these trademarks are subject to the Creative Commons Trademark Policy (https://creativecommons.org/policies).
