@@ -10035,7 +10035,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   font-size: 1rem;
 }
 
-.resume-skills-cat {
+.resume-cat, .resume-interests-cat, .resume-skills-cat {
   font-size: 1rem;
   color: #434E5E;
 }
