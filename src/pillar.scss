@@ -253,9 +253,14 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 }
 
 .footer {
-
 	.fa-heart {
 		color: #fb866a;
+	}
+}
+
+@media print {
+	.footer {
+		display: none;
 	}
 }
 
