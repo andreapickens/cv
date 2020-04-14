@@ -270,12 +270,6 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 	}
 }
 
-@media print {
-	.footer {
-		display: none;
-	}
-}
-
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
     .resume-wrapper {
