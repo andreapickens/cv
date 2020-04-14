@@ -2,13 +2,17 @@
 
 This repository contains the curriculum vitae of Jason Pickens.
 
-## Building
+## Setup
 
-First install [Sass][].
+First install:
+- [Node.js][]
+- [Sass][]
+
+## Building
 
 Now you can compile the SCSS files to CSS:
 ```shell script
-sass assets/scss/pillar.scss assets/css/pillar.css
+npm run build
 ```
 
 ## Notice
@@ -66,6 +70,7 @@ This includes, but is not limited to:
 [fontawesome]: http://fortawesome.github.io/Font-Awesome/
 [fontawesome license]: https://fontawesome.com/license/free
 [fonticon]: https://gauger.io/fonticon/
+[node.js]: https://nodejs.org/en/download/
 [original]: https://github.com/xriley/pillar-theme
 [sass]: https://sass-lang.com/install
 [xiaoying riley]: https://twitter.com/3rdwave_themes
