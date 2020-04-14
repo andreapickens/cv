@@ -37,15 +37,11 @@ File: assets/images/profile.jpg
 Title: Profile image
 License: None
 
-File: index.html
+File: assets/index.html
 Title: Personal information
 License: None
 Note: This relates to the contents of this file which describe the personal details of the subject
   that they are about.
-
-Directory: assets/scss/bootstrap
-Title: Bootstrap
-License: https://github.com/twbs/bootstrap/blob/master/LICENSE
 
 Directory: assets/images/cc
 Title: Creative Commons Buttons

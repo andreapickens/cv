@@ -51,8 +51,7 @@ This includes, but is not limited to:
 | ---- | ----- | ------- | ---- |
 | [favicon.ico](assets/images/favicon.ico) | Favicon | [Fontawesome license][] | This is adapted from original SVG icon file via [FontIcon][]. |
 | [profile.jpg](assets/images/profile.jpg) | Profile image | None | |
-| [index.html](index.html) | Personal information | None | This relates to the contents of this file which describe the personal details of the subject that they are about. |
-| [bootstrap](assets/scss/bootstrap) | Bootstrap | [Bootstrap license][] | |
+| [index.html](assets/index.html) | Personal information | None | This relates to the contents of this file which describe the personal details of the subject that they are about. |
 | [cc](assets/images/cc) | Creative Commons Buttons | None | Use of these trademarks are subject to the [Creative Commons Trademark Policy][]. |
 
 ## Credits
@@ -61,7 +60,6 @@ This includes, but is not limited to:
 - [FontAwesome][]
 
 [bootstrap]: http://getbootstrap.com/
-[bootstrap license]: https://github.com/twbs/bootstrap/blob/master/LICENSE
 [buy license]: https://themes.3rdwavemedia.com/bootstrap-templates/all/free-bootstrap4-resume-cv-template-for-developers-pillar/
 [creative commons attribution 4.0 international license]: https://creativecommons.org/licenses/by/4.0/
 [creative commons trademark policy]: https://creativecommons.org/policies
