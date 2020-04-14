@@ -9920,14 +9920,10 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   background-color: #434E5E;
 }
 
-.resume-wrapper {
-  padding-top: 30px;
-  padding-bottom: 60px;
-}
-
-@media print {
+@media print, (min-width: 992px) {
   .resume-wrapper {
-    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 }
 .resume-wrapper-inner {
