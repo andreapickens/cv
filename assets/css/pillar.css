@@ -9885,6 +9885,12 @@ h3 {
   }
 }
 /*************************** Pillar Styles ****************************/
+@page {
+  margin: 10mm 0 5mm;
+}
+@page :first {
+  margin-top: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   background: #F7F8FA;
@@ -9920,10 +9926,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   background-color: #434E5E;
 }
 
-@media print, (min-width: 992px) {
+.resume-wrapper {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+@media print {
   .resume-wrapper {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding: 0;
   }
 }
 .resume-wrapper-inner {
@@ -9971,6 +9981,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   color: #434E5E;
 }
 
+@media print {
+  .p-5 {
+    padding: 2rem !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 2rem !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+}
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
