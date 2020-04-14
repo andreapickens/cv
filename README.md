@@ -2,6 +2,15 @@
 
 This repository contains the curriculum vitae of Jason Pickens.
 
+## Building
+
+First install [Sass][].
+
+Now you can compile the SCSS files to CSS:
+```shell script
+sass assets/scss/pillar.scss assets/css/pillar.css
+```
+
 ## Notice
 
 This is an adaptation of ["Pillar - Bootstrap 4 Resume/CV Theme for Developers"][original] by UX/UI
@@ -58,4 +67,5 @@ This includes, but is not limited to:
 [fontawesome license]: https://fontawesome.com/license/free
 [fonticon]: https://gauger.io/fonticon/
 [original]: https://github.com/xriley/pillar-theme
+[sass]: https://sass-lang.com/install
 [xiaoying riley]: https://twitter.com/3rdwave_themes
