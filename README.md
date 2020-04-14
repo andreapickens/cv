@@ -2,10 +2,10 @@
 
 This repository contains the curriculum vitae of Jason Pickens.
 
-## Author & License
+## Notice
 
-This is an adaptation of "Pillar - Bootstrap 4 Resume/CV Theme for Developers" by UX/UI designer
-[Xiaoying Riley][].
+This is an adaptation of ["Pillar - Bootstrap 4 Resume/CV Theme for Developers"][original] by UX/UI
+designer [Xiaoying Riley][].
 
 Original notice:
 > This Bootstrap template is made by UX/UI designer [Xiaoying Riley][] for developers and is 100%
@@ -16,8 +16,12 @@ Original notice:
 > If you'd like to **use the template without the footer attribution**, you can
 > [buy the **commercial license** via the theme website][buy license].
 
+### Adaptations
+
 Changes to the original works can be identified by [comparing][] this to the branch in the original
 repository. This may also include new content which is not considered an adaptation.
+
+## License
 
 Except where [otherwise noted][exceptions], content in this repository is licensed under a
 [Creative Commons Attribution 3.0 International license][cc by 3.0].
@@ -51,4 +55,5 @@ This includes, but is not limited to:
 [fontawesome]: http://fortawesome.github.io/Font-Awesome/
 [fontawesome license]: https://fontawesome.com/license/free
 [fonticon]: https://gauger.io/fonticon/
+[original]: https://github.com/xriley/pillar-theme
 [xiaoying riley]: https://twitter.com/3rdwave_themes
